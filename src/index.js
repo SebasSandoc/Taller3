@@ -9,7 +9,7 @@ require('dotenv').config();
 app.use(parser.urlencoded({ extended: false })); 
 app.use(parser.json()); 
 
-app.use("/api", componenteRoutesRoutes);
+app.use("/api", componenteRoutes);
 app.use(express.json());
 
 mongoose

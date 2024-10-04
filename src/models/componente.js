@@ -30,4 +30,4 @@ const componenteSchema = mongoose.Schema({
     }
 });
 
-module.exports = mongoose("Componente",animalSchema);
+module.exports = mongoose.model("Componente",componenteSchema);
