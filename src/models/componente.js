@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const componenteSchema = mongoose.Schema({
-    id:{
+    idInv:{
         type: Number,
         required: true
     },
